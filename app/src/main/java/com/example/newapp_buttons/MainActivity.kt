@@ -7,7 +7,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -26,7 +25,6 @@ import androidx.compose.ui.unit.dp
 import com.example.newapp_buttons.ui.theme.DebugButtonColors
 import com.example.newapp_buttons.ui.theme.ErrorButtonColors
 import com.example.newapp_buttons.ui.theme.InfoButtonColors
-import com.example.newapp_buttons.ui.theme.IntroductionJetPackTheme
 import com.example.newapp_buttons.ui.theme.WarningButtonColors
 import com.example.newapp_buttons.ui.theme.Newapp_buttonsTheme
 
@@ -132,3 +130,5 @@ fun GreetingPreview(){
         Greeting("JetPack")
     }
 }
+
+//Os avisos apoarecem em Logcat.
