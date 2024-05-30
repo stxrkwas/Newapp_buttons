@@ -1,5 +1,7 @@
+// Informa o pacote e a pasta do arquivo
 package com.example.newapp_buttons.ui.theme
 
+// Importa a biblioteca de cores
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)
